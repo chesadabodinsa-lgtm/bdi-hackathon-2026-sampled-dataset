@@ -19,7 +19,7 @@ filetype:
 ## คำอธิบาย
 ชุดข้อมูลนี้ประกอบด้วยไฟล์ 3D Model และ Point Cloud ที่ได้จากการสแกนพื้นที่เมือง โดยจัดเก็บในรูปแบบ:
 - **OBJ files**: ไฟล์แบบจำลอง 3D พร้อม Texture (`.obj`, `.mtl`)
-- **3dxb files**: ไฟล์ Scene แบบละเอียด แบ่งตาม Tile พิกัด
+- **3mxb files** (3MX): ไฟล์ Scene แบบละเอียด แบ่งตาม Tile พิกัด เป็นรูปแบบไฟล์ Point Cloud / 3D Mesh ของ **Bentley Systems** (ContextCapture / MicroStation)
 - **metadata.xml**: ข้อมูลเมตาของชุดข้อมูล
 
 ข้อมูลถูกแบ่งเป็น Tiles ตามพิกัด (เช่น `Tile_+010_+035`) เพื่อการบริหารจัดการพื้นที่แบบ Grid
@@ -58,3 +58,5 @@ filetype:
 ## หมายเหตุ
 - ข้อมูลนี้เป็นตัวอย่างที่ sampled แล้ว
 - ไฟล์ถูกจัดเก็บในรูปแบบ `.tar.gz`
+- **3MX (3mxb)** เป็นรูปแบบไฟล์ Point Cloud / 3D Mesh ของ **Bentley Systems** ใช้กับ ContextCapture และ MicroStation เป็น binary scene format ที่แบ่งข้อมูลเป็น LOD (Level of Detail) pyramid ตาม spatial tiles
+  - อ่านเพิ่มเติม: [Bentley ContextCapture 3MX Format](https://docs.bentley.com/LiveContent/web/ContextCapture%20Help-v18/en/GUID-CED0ABE6-2EE3-458D-9810-D87EC3C521BD.html)

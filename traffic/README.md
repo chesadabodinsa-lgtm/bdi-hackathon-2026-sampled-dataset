@@ -18,8 +18,8 @@ filetype:
 
 ## คำอธิบาย
 ชุดข้อมูลนี้ประกอบด้วย 2 ส่วนหลัก:
-1. **วิดีโอจากกล้องตรวจจราจร** จำนวน 35 คลิปจาก YouTube — มุ่งเน้นโจทย์การนับยานพาหนะแบบไม่ซ้ำ (Unique Vehicle Counting)
-2. **ข้อมูลสถิติการจราจรแบบตาราง** จำนวน 25 จุด จาก Khon Kaen Traffic Dashboard — เป็นข้อมูลนับยานพาหนะแยกประเภท (รถยนต์/รถจักรยานยนต์/รถบรรทุก) พร้อมพิกัด GPS
+1. **วิดีโอจากกล้องตรวจจราจร** จำนวน 35 คลิปจาก YouTube  มุ่งเน้นโจทย์การนับยานพาหนะแบบไม่ซ้ำ (Unique Vehicle Counting)
+2. **ข้อมูลสถิติการจราจรแบบตาราง** จำนวน 25 จุด จาก Khon Kaen Traffic Dashboard  เป็นข้อมูลนับยานพาหนะแยกประเภท (รถยนต์/รถจักรยานยนต์/รถบรรทุก) พร้อมพิกัด GPS
 
 แหล่งข้อมูลวิดีโอ: [YouTube Playlist](https://www.youtube.com/playlist?list=PLTtSg8Z-ZIjopXh1ajC-Mx96Pp6xj-cjV)
 แหล่งข้อมูลสถิติ: [KK Traffic Dashboard](https://suchartstudio.github.io/kktraffic/)
